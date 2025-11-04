@@ -1,0 +1,46 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# ---- Environment ----
+.env
+*.env
+.env.*
+
+# ---- UV virtual environment ----
+.venv/
+.uv/
+.uv_cache/
+.uv_lock/
+
+# ---- IDEs / Editors ----
+.vscode/
+.idea/
+*.swp
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+
+# ---- Test / Coverage ----
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.cover
+*.py,cover
+coverage.xml
+
+# ---- Jupyter Notebooks ----
+.ipynb_checkpoints/
+
+# ---- Local configuration ----
+config.json
